@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+	<!-- KDarden -->
 		<title>Kirby Mitcham Photography</title>
 		<meta name="description" content="Artistic and professional photographs by Kirby Mitcham.">
 		<meta name="keywords" content="HTML, CSS, Photography, Kirby Mitcham">
@@ -15,18 +16,27 @@
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	</head>
 	<body>
-		<nav class="container-fluid">
-			<div class="row">
-				<div class="col-md-1" styld="background: cyan">harumph1</div>
-				<div class="col-md-1">harumph2</div>
-				<div class="col-md-1">harumph3</div>
+		<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+			<!-- Logo -->
+			<div class="container-fluid text-center">
+				<img src="https://lh4.googleusercontent.com/-ak28-E7WE_w/TX9JIJy4lBI/AAAAAAAALcY/4hPNBtNZk8U/s1600/sony_logo20.png" alt="logo"
+				style="max-height: 10vh; width: auto; height: auto">
 			</div>
-		
+			<!-- End Logo -->
+			<!-- Navigation Buttons -->
+			<nav class="container-fluid">
+				<ul class="nav nav-pills nav-justified">
+					<li><a href="#">Primary<span class="badge">!</span></a></li>
+					<li><a href="#"><span class="label label-success">Social</span></a></li>
+					<li class="disabled"><a href="#">bloop</a></li>
+					<li><a href="#">Drop it like it's hot</a></li>
+				</ul>
+			</nav>
+			<!-- End Navigation Buttons -->
 		</nav>
-		<div class="container-fluid">
-			<em>dated</em>
-			<p>hello world!</p>
-			<a href"">booga booga</a>
-		</div>
+		<!-- Temporary background image -->
+		<img src="http://images.panda.org/assets/images/pages/welcome/orangutan_1600x1000_279157.jpg" alt="Chimp"
+		style="width: 100%; max-height: auto">
+		<!-- end temp background image -->
 	</body>
 </html>
