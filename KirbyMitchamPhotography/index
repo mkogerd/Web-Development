@@ -15,14 +15,15 @@
 		<!-- Latest cimpiled JavaScript -->
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	</head>
-	<body>
+	
+	<body style="background-color: purple"> <!-- Forced purple background change-->
 		<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
 			<!-- Logo -->
 			<div class="container-fluid text-center">
 				<img src="https://lh4.googleusercontent.com/-ak28-E7WE_w/TX9JIJy4lBI/AAAAAAAALcY/4hPNBtNZk8U/s1600/sony_logo20.png" alt="logo"
 				style="max-height: 10vh; width: auto; height: auto">
 			</div>
-			<!-- End Logo -->
+			
 			<!-- Navigation Buttons -->
 			<nav class="container-fluid">
 				<ul class="nav nav-pills nav-justified">
@@ -34,9 +35,64 @@
 			</nav>
 			<!-- End Navigation Buttons -->
 		</nav>
-		<!-- Temporary background image -->
+		
+		<!-- Temporary background image for scrolling  -->
 		<img src="http://images.panda.org/assets/images/pages/welcome/orangutan_1600x1000_279157.jpg" alt="Chimp"
 		style="width: 100%; max-height: auto">
-		<!-- end temp background image -->
+		
+		<!-- Carousel -->
+		<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="2000">
+		
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+				<li data-target="#myCarousel" data-slide-to="3"></li>
+				<li data-target="#myCarousel" data-slide-to="4"></li>
+			</ol>
+			
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox">
+				<div class="item active" text-align="center">
+					<img class="image-responsive center-block" src="http://www.gettyimages.com/gi-resources/images/CreativeImages/Hero-527920799.jpg" alt="biker dude">
+				</div>
+				
+				<div class="item">
+					<img class="image-responsive center-block" src="http://www.gettyimages.in/gi-resources/images/Homepage/Category-Creative/UK/UK_Creative_462809583.jpg" alt="bird">
+					<div class="carousel-caption">
+						<h3>Picture</h3>
+						<p> It's gorgeous. </p>
+					</div>
+				</div>
+				
+				<div class="item">
+					<img class="image-responsive center-block" src="http://www.gettyimages.in/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg" alt="Birds">
+					<div class="carousel-caption">
+						<h3>Another Picture</h3>
+						<p> It's another gorgeous. </p>
+					</div>
+				</div>
+				
+				<div class="item">
+					<img class="image-responsive center-block" src="http://i.dailymail.co.uk/i/pix/2015/06/26/08/29F51C6A00000578-3139358-image-m-7_1435303227646.jpg" alt="Alligator">
+				</div>
+				
+				<div class="item">
+					<span style="margin: 0 auto; text-align: center;">Hello?</span>
+				</div>
+			</div>
+			
+			<!-- Left and right controls -->
+			<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			<a/>
+			<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+		<!-- end Carousel -->
 	</body>
 </html>
