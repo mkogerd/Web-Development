@@ -1,11 +1,11 @@
 body {
     background-color: purple;
-	padding-top: 40vh;
+	padding-top: 20vh;
 }
 
 #myCarousel .item {
-	height: 40vh;
+	height: 60vh;
 }
 #myCarousel .item img{
-	height: 40vh;
+	height: 60vh;
 }
