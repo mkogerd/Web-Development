@@ -1,6 +1,50 @@
 body {
     background-color: purple;
-	padding-top: 20vh;
+	padding-top: 0;
+}
+.brand img {
+	max-height: 10vh; 
+	width: auto; 
+	height: auto;
+}
+
+.navbar-default {
+	border: none;
+	background: #fff;
+	background: rgba(255,255,255,0.7);
+}
+
+.box {
+	padding: 30px 15px;
+	margin-bottom: 20px;
+	background: #fff;
+	background: rgba(255,255,255,0.7);
+	height: auto;
+}
+
+footer {
+	background: #fff;
+	background: rgba(255,255,255,0.7);
+}
+
+footer .social {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+footer .social li{
+	display: inline-block;
+}
+
+footer .social img{
+	height: 16px;
+	width: 16px;
+}
+
+footer p{
+	margin: 0px;
+	padding: 20px;
 }
 
 #myCarousel .item {
