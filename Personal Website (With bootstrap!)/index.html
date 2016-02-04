@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
 	<head>
-		<title> Koger!</title>
+		<title>Michael Darden</title>
 		<link href="images/logoGreen.png" rel="shortcut icon">
 		<meta charset="UTF-8">
 		<meta name="description" content="Koger's personal website v.2">
@@ -25,25 +25,26 @@
 		<link rel="stylesheet" href="main.css">
 	</head>
 	<body>
+		<!-- Navbar unnecassary
 		<nav class="navbar navbar-default" style="margin-bottom:0;">
-			<!-- Navbar Branding -->
+			<!-- Navbar Branding 
 			<div class="navbar-header">
 				<a class="navbar-brand" style="padding-top:5px;" href="#"><img height="40px" src="images\logo.png" alt="Logo"></a>
 			</div>
 			
-			<!-- Navigation Buttons -->
+			<!-- Navigation Buttons 
 			<ul class="nav nav-pills nav-justified">
 				<li><a>bloop</a></li>
 				<li><a>blahp</a></li>
 			</ul>
-		</nav>
+		</nav> -->
 
-		<!-- Jumbotron/ Title -->
+		<!-- Jumbotron/Title -->
 		<div class="jumbotron">
-		    <div class="text-center">
-		        <h1>Michael Darden</h1>
-		        <p>Electrical/Computer Engineer</p>
-		    </div>
+		    <div class="title text-center">
+		        <h1><b>Michael Darden</b></h1>
+		        <p><b>Electrical/Computer Engineer</b></p>
+			</div>
 		</div>
 
 		<!-- Content -->
@@ -51,35 +52,48 @@
 			<!-- About Section -->
 			<div class="row">
 				<div class="col-xs-12">
-					<h2>About</h2>
-					<p>I'm a 2nd year ECE student at UT Austin.</p>
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h2>About</h2>
+						</div>
+						<div class="panel-body">
+							<p>I'm a 2nd year ECE student at UT Austin.</p>
+						</div>
+					</div>
 				</div>
 			</div>
 
 			<!-- Resume link -->
 			<div class="row">
 				<div class="col-xs-12">
-				<button type="button" class="btn btn-info btn-block btn-lg">Resume</button>
+					<a type="button" class="btn btn-info btn-block btn-lg" href="resume.pdf" target="_blank"><h2>Resume</h2></a>
 				</div>
 			</div>
 
 			<!-- Contact Info -->
 			<div class="row">
 				<div class="col-xs-12">
-					<h2>Contact</h2>
-					<p>Email: mkogerd@utexas.edu</p>
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h2>Contact</h2>
+						</div>
+						<div class="panel-body">
+							<p>Student Email:<br>
+							<a href="mailto:mkogerd@utexas.edu?Subject=Hello" target="_blank">mkogerd@utexas.edu</a>
+							</p>
+
+							<p>Linkedin:<br>
+							<a href="https://www.linkedin.com/in/mkogerd" target="_blank">https://www.linkedin.com/in/mkogerd</a>
+							</p>
+
+							<p>
+							Github:<br>
+							<a href="https://github.com/mkogerd" target="_blank">https://github.com/mkogerd</a><br>(all the code for this website is found <a href="https://github.com/mkogerd/mkogerd.github.io" target="_blank">here!</a>)</a>
+							</p>
+						</div>
+					</div>
 				</div>
-				<div class="row icon-list">
-					<div class="col-xs-3">
-						<a href="#"><i class="fa fa-github fa-3x"></i></a>
-					</div>
-					<div class="col-xs-3">
-						<a href="#"><i class="fa fa-envelope-o fa-3x"></i></a>
-					</div>
-					<div class="col-xs-3">
-						<a href="#"><i class="fa fa-linkedin fa-3x"></i></a>
-					</div>
-				</div>
+				
 				<!--
 				<div class="list-group-inline">
 				 	<a class="list-group-item" href="#"><i class="fa fa-home fa-fw"></i>&nbsp; Home</a>
@@ -129,5 +143,28 @@
 
 			</div>
 		</div>
+
+		<!-- Footer -->
+		<footer class="nav text-center navbar-inverse navbar-bottom">
+			<!-- Link Icons -->
+			<div class="row icon-list">
+				<div class="col-xs-4">
+					<a href="mailto:mkogerd@utexas.edu?Subject=Hello" target="_blank"><i class="fa fa-envelope-o fa-3x"></i></a>
+				</div>
+				<div class="col-xs-4">
+					<a href="https://www.linkedin.com/in/mkogerd" target="_blank"><i class="fa fa-linkedin fa-3x"></i></a>
+				</div>
+				<div class="col-xs-4">
+					<a href="https://github.com/mkogerd" target="_blank"><i class="fa fa-github fa-3x"></i></a>
+				</div>
+			</div>
+
+			<!-- Copyright -->
+			<div class="row">
+				<div class="copyright">
+					© 2016 Michael Koger Darden
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>
